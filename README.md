@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
 
+## Install dependencies
+
+Rund `npm install` to install required node modules. This boilerplate uses Angular 4.xx, Bootrap UI 4.xx with SCSS styling and electron 1.7 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
