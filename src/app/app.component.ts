@@ -13,6 +13,7 @@ import { AppConfig } from './app.config';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
   constructor(public electronService: ElectronService,
     private translate: TranslateService) {
 

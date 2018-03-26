@@ -4,5 +4,18 @@
 @import 'variables';
 @import '../node_modules/bootstrap/scss/bootstrap';
 
-// import app.component.scss
+// Import app.component.scss
 @import 'src/app/app.component.scss';
+
+// Import dashboard.component.scss
+@import './app/dashboard/dashboard.component.scss';
+
+// Import settings.component.scss
+@import './app/settings/settings.component.scss';
+
+// Import settings navigation.component.scss
+@import './app/settings/navigation/navigation.component.scss';
+
+// Import data input component
+
+// Import data review component
