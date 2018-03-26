@@ -1,0 +1,24 @@
+{
+  "productName": "angular-electron",
+  "directories": {
+    "output": "app-builds"
+  },
+  "win": {
+    "icon": "dist/assets/app-icons",
+    "target": [
+      "portable"
+    ]
+  },
+  "mac": {
+    "icon": "dist/assets/app-icons",
+    "target": [
+      "dmg"
+    ]
+  },
+  "linux": {
+    "icon": "dist/assets/app-icons",
+    "target": [
+      "AppImage"
+    ]
+  }
+}
