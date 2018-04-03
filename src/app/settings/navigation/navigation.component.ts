@@ -15,4 +15,15 @@ export class NavigationComponent implements OnInit {
   ngOnInit() {
   }
 
+  // Handle input section request. set input component
+  // as settings main component.
+  onEnterDetailsSectionClicked () {
+    this.router.navigate(['/app-settings-inputput']);
+  }
+
+  // Handle read section request. set 'read from store' component
+  // as settings main component.
+  onReadDetailsSectionClicked () {
+    this.router.navigate(['/app-settings-output']);
+  }
 }

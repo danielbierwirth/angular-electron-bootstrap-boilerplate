@@ -1,7 +1,17 @@
 .settings-navigation-layout {
   width: 100%;
-  
   height: 40px;
   line-height: 40px;
-  position: absolute;
+}
+
+.navigation-row {
+  height: 100px;
+}
+
+.content-row {
+  height: 500px;
+}
+
+.child-component-layout {
+  width: 100%;
 }

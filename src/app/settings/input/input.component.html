@@ -1,0 +1,34 @@
+<div class="row intro-style">
+  <div class= "col">
+    <div class="alert alert-info" role="alert">
+      Component demonstrates how to persist data in local storage.
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class= "col">
+    <form>
+      <div class="form-group">
+        <label for="summaryFormControlTextarea">Summary</label>
+        <textarea class="form-control" id="summaryFormControlTextarea" rows="1" placeholder="Summary ..."></textarea>
+      </div>
+      <div class="form-group">
+        <label for="detailsFormControlTextarea">Story</label>
+        <textarea class="form-control" id="detailsFormControlTextarea" rows="4" placeholder="Details ..."></textarea>
+      </div>
+      <div class="form-group">
+        <label for="ratingFormControlSelect">Story Rating</label>
+        <select class="form-control" id="ratingFormControlSelect">
+          <option>Low</option>
+          <option>Normal</option>
+          <option>High</option>
+        </select>
+  </div>
+    </form>
+  </div>
+</div>
+<div class="row save-to-store-style">
+  <div class= "col">
+    <button type="button" class="btn btn-primary btn-lg btn-block" (click)="onSaveToStoreClicked()">Save to Store</button>
+  </div>
+</div>

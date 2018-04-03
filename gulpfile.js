@@ -36,14 +36,14 @@ gulp.task('watch', function () {
 * watches for file changes.
 */
 gulp.task('lintwatch', ['tslint', 'watch'], function () {
-  console.log('WORKSTRUCTIONS App started');
+  console.log('Angular-Electron-Boilerplate Lint watch started');
 });
 
 /**
 * Perform gulp task that Lints all TypeScript
 */
 gulp.task('lint', ['tslint'], function () {
-  console.log('WORKSTRUCTIONS App started');
+  console.log('Angular-Electron-Boilerplate Lint completed');
 });
 
 /**

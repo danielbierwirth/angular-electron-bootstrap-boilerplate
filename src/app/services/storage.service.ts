@@ -14,7 +14,7 @@ export class StorageService {
       const Store = window.require('electron-store');
       this.store = new Store({'name': storeName});
       // Log store location.
-      console.log('created store at path ' + this.store.path);
+      console.log('initialized store at path ' + this.store.path);
     } else {
       console.log('persistent store cannot be created outside electron environment');
     }

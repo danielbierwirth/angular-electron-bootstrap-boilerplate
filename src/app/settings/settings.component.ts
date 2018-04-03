@@ -13,6 +13,7 @@ export class SettingsComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-
+    // Load inputcomponent by default.
+    this.router.navigate(['/app-settings-inputput']);
   }
 }

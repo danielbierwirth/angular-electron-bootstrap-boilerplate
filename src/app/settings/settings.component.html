@@ -1,2 +1,12 @@
-<!-- The navigation component -->
-<app-settings-navigation class="settings-navigation-layout"></app-settings-navigation>
+<div class="container">
+  <div class="row navigation-row">
+    <!-- The navigation component -->
+    <app-settings-navigation class="settings-navigation-layout"></app-settings-navigation>
+  </div>
+  <div class="row content-row">
+    <div class="col child-component-layout">
+      <router-outlet></router-outlet>
+    </div>
+      <!-- Input & Output components get added here by the router -->
+  </div>
+</div>

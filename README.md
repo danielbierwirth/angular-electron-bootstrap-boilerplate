@@ -98,4 +98,11 @@ src/app/annotator/annotator.component.scss
 src/app/annotator/annotator.component.html
 src/app/annotator/annotator.component.spec.ts
 src/app/annotator/annotator.component.ts
-src/app/annotator/annotator.module.ts
+
+# Sample Code 
+
+Sample demonstrates:
+- global routing
+- child routing (within modules)
+- multi-language support
+- persistent storage
