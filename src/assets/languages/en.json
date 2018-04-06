@@ -1,7 +1,27 @@
 {
-  "PAGES": {
-      "HOME": {
-          "Info": "That's the Angular-Electron Boilerplate"
+  "Components": {
+      "Dashboard": {
+          "WelcomeButton": "Welcome"
+      },
+      "Navigation": {
+        "InputButton" : "Write to store",
+        "OutputButton" : "Read from store"
+      },
+      "Input": {
+        "Explainer" : "Component demonstrates how to persist data in local storage.",
+        "Summary" : "Summary",
+        "Story": "Story",
+        "StoryRating": "Story Rating",
+        "StoryRatingLow": "Low",
+        "StoryRatingNormal": "Normal",
+        "StoryRatingHigh": "High",
+        "Save": "Save to store"
+      },
+      "Output": {
+        "Explainer" : "Component demonstrates how to read from local data storage.",
+        "Summary" : "Summary",
+        "Story": "Story",
+        "StoryRating": "Story Rating"
       }
   }
 }

@@ -1,7 +1,7 @@
 <div class="row intro-style">
   <div class= "col">
     <div class="alert alert-info" role="alert">
-      Component demonstrates how to read from local data storage.
+      {{ 'Components.Output.Explainer' | translate }}
     </div>
   </div>
 </div>
@@ -9,15 +9,15 @@
   <div class= "col">
     <form>
       <div class="form-group">
-        <label for="summaryFormControlTextarea">Summary</label>
+        <label for="summaryFormControlTextarea">{{ 'Components.Input.Summary' | translate }}</label>
         <textarea class="form-control" id="summaryFormControlTextarea" rows="1" placeholder="" readonly></textarea>
       </div>
       <div class="form-group">
-        <label for="detailsFormControlTextarea">Story</label>
+        <label for="detailsFormControlTextarea">{{ 'Components.Input.Story' | translate }}</label>
         <textarea class="form-control" id="detailsFormControlTextarea" rows="4" readonly placeholder=""></textarea>
       </div>
       <div class="form-group">
-        <label for="ratingFormControlSelect">Story Rating</label>
+        <label for="ratingFormControlSelect">{{ 'Components.Input.StoryRating' | translate }}</label>
         <textarea class="form-control" id="ratingFormControlSelect" rows="1" placeholder="" readonly></textarea>
   </div>
     </form>

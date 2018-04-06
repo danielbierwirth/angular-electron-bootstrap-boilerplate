@@ -2,6 +2,9 @@ import { Component, OnInit } from '@angular/core';
 
 import { Router } from '@angular/router';
 
+// Import translate service
+import { TranslateService } from '@ngx-translate/core';
+
 // The navigation dashboard component
 @Component({
  selector: 'app-settings-navigation',
@@ -10,7 +13,8 @@ import { Router } from '@angular/router';
 })
 
 export class NavigationComponent implements OnInit {
-  constructor(private router: Router) { }
+  constructor(private router: Router,
+  private translate: TranslateService) { }
 
   ngOnInit() {
   }

@@ -1,7 +1,27 @@
 {
-  "PAGES": {
-      "HOME": {
-          "Info": "Dies ist ein Angular-Electron Boilerplate"
+  "Components": {
+      "Dashboard": {
+          "WelcomeButton": "Willkommen"
+      },
+      "Navigation": {
+        "InputButton" : "Speicher schreiben",
+        "OutputButton" : "Speicher auslesen"
+      },
+      "Input": {
+        "Explainer":"Component zeigt wie Daten persistent gespeichert werden können.",
+        "Summary":"Zusammenfassung",
+        "Story":"Story",
+        "StoryRating":"Story Bewertung",
+        "StoryRatingLow": "Niedrig",
+        "StoryRatingNormal": "Normal",
+        "StoryRatingHigh": "Hoch",
+        "Save": "Speichern"
+      },
+      "Output": {
+        "Explainer" : "Component zeigt wie Daten aus dem lokalen Store ausgelesen werden können.",
+        "Summary":"Zusammenfassung",
+        "Story":"Story",
+        "StoryRating":"Story Bewertung"
       }
   }
 }

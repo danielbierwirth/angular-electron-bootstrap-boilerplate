@@ -22,8 +22,6 @@ const settingsRoutes: Routes = [
     RouterModule.forChild(settingsRoutes)
   ],
   declarations: [
-    InputComponent,
-    OutputComponent
   ],
   exports: [
     RouterModule

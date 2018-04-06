@@ -1,4 +1,8 @@
 <div class= "col navigation-component-bg">
-  <button type="button" class="btn btn-outline-dark .btn-lg buttonstyle" (click)="onEnterDetailsSectionClicked()">Input</button>
-  <button type="button" class="btn btn-outline-dark .btn-lg buttonstyle" (click)="onReadDetailsSectionClicked()">Read</button>
+  <button type="button" class="btn btn-outline-dark .btn-lg buttonstyle" (click)="onEnterDetailsSectionClicked()">
+    {{ 'Components.Navigation.InputButton' | translate }}
+  </button>
+  <button type="button" class="btn btn-outline-dark .btn-lg buttonstyle" (click)="onReadDetailsSectionClicked()">
+    {{ 'Components.Navigation.OutputButton' | translate }}
+  </button>
 </div>

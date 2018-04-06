@@ -1,7 +1,7 @@
 <div class="row intro-style">
   <div class= "col">
     <div class="alert alert-info" role="alert">
-      Component demonstrates how to persist data in local storage.
+      {{ 'Components.Input.Explainer' | translate }}
     </div>
   </div>
 </div>
@@ -9,19 +9,19 @@
   <div class= "col">
     <form>
       <div class="form-group">
-        <label for="summaryFormControlTextarea">Summary</label>
-        <textarea class="form-control" id="summaryFormControlTextarea" rows="1" placeholder="Summary ..."></textarea>
+        <label for="summaryFormControlTextarea">{{ 'Components.Input.Summary' | translate }}</label>
+        <textarea class="form-control" id="summaryFormControlTextarea" rows="1" placeholder="..."></textarea>
       </div>
       <div class="form-group">
-        <label for="detailsFormControlTextarea">Story</label>
-        <textarea class="form-control" id="detailsFormControlTextarea" rows="4" placeholder="Details ..."></textarea>
+        <label for="detailsFormControlTextarea">{{ 'Components.Input.Story' | translate }}</label>
+        <textarea class="form-control" id="detailsFormControlTextarea" rows="4" placeholder="..."></textarea>
       </div>
       <div class="form-group">
-        <label for="ratingFormControlSelect">Story Rating</label>
+        <label for="ratingFormControlSelect">{{ 'Components.Input.StoryRating' | translate }}</label>
         <select class="form-control" id="ratingFormControlSelect">
-          <option>Low</option>
-          <option>Normal</option>
-          <option>High</option>
+          <option>{{ 'Components.Input.StoryRatingLow' | translate }}</option>
+          <option>{{ 'Components.Input.StoryRatingNormal' | translate }}</option>
+          <option>{{ 'Components.Input.StoryRatingHigh' | translate }}</option>
         </select>
   </div>
     </form>
@@ -29,6 +29,8 @@
 </div>
 <div class="row save-to-store-style">
   <div class= "col">
-    <button type="button" class="btn btn-primary btn-lg btn-block" (click)="onSaveToStoreClicked()">Save to Store</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" (click)="onSaveToStoreClicked()">
+      {{ 'Components.Input.Save' | translate }}
+    </button>
   </div>
 </div>
